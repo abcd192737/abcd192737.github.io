@@ -1,4 +1,6 @@
 <!doctype html>
+<meta name="viewport" content="width=device-width,user-scalable=yes">
+<meta name="keyword" content="C,編譯器,程式語言,新手,如何寫程式,C語言">
 <head>
     <h><strong><big><big><big><big><big><big>事前準備</big></big></big></big></big></big></strong></h>
 </head>
@@ -15,9 +17,9 @@
 <p2>
     <h1>買本適合自己的參考書或找個教學網站</h1>
     <p>我覺得主要還是以自己的感覺為主，下面推薦幾個線上學習的網站</p>
-    <li><strong>TibaMe</strong><img scr="elearning1.png">有些課程還不錯，上課內容紮實，但是平均單價落在千元，品質相對有保障<a href="https://www.tibame.com/event/7/invite-user/147578"target="_blank">讓我賺個邀請的獎勵吧</a></li>
-    <li><strong>udemy</strong><img scr="elearning2.png">價格實惠，但這就必須看運氣了，講師沒有上面來得穩定，如果英文好的人也可上英文課程順便練英聽，<strong>千萬別買原價課程</strong>保證你會後悔，它幾乎每天都在特價<a href="https://www.udemy.com/"target="_blank">網址點我<br></a></li>
-    <p2><em>我個人的經驗是最好找一本自己看得不會睡著的書，從頭練習一遍，雖然在前面很像在抄它的程式，但漸漸自己就會把語法熟悉，在第二次閱讀時就可以練習不看它的程式碼。</em>最後推薦個好網站，如果對於書上為什麼要這樣寫感到困惑，這個網站可以一步一步圖解<a href="http://pythontutor.com/c.html#mode=edit"target="_blank">網址點我</a></p2>
+    <li><strong>TibaMe</strong><img scr="elearning1.png" width="192" height="108">有些課程還不錯，上課內容紮實，但是平均單價落在千元，品質相對有保障<a href="https://www.tibame.com/event/7/invite-user/147578"target="_blank">讓我賺個邀請的獎勵吧</a></li>
+    <li><strong>udemy</strong><img scr="elearning2.png" width="192" height="108">價格實惠，但這就必須看運氣了，講師沒有上面來得穩定，如果英文好的人也可上英文課程順便練英聽，<strong>千萬別買原價課程</strong>保證你會後悔，它幾乎每天都在特價<a href="https://www.udemy.com/"target="_blank">網址點我<br></a></li>
+    <p2><em><br>我個人的經驗是最好找一本自己看得不會睡著的書，從頭練習一遍，雖然在前面很像在抄它的程式，但漸漸自己就會把語法熟悉，在第二次閱讀時就可以練習不看它的程式碼。</em>最後推薦個好網站，如果對於書上為什麼要這樣寫感到困惑，這個網站可以一步一步圖解<a href="http://pythontutor.com/c.html#mode=edit"target="_blank">網址點我</a></p2>
 </p2>
 <p3>
     <h1>下定決心每天練習</h1>
@@ -28,12 +30,13 @@
     <p1>簡單來說呢?我們所學的語法電腦其實看不懂，但是我們又不可能每個人都學會艱澀難懂的機器語言，所以高階語言因此就被發明出來了。</p1>
     <h2>編譯器的運作原理</h2>
     <p1>編譯器的原理大致上分為七個部分</p1>
-        <li>原始碼<br>也就是我們所學的語法</li>
-        <li>預處理器<br>在C語言中使用"#"開頭的指令就必須使用預處理器</li>
-        <li>組合語言<br>現代大部分的開發者在進行軟體開發時不會使用此語言，但因為接近比起編譯語言更接近硬體，所以在一些要求時效性的程式中會使用組合語言開發，大致來說把編譯語言想成物理的公式，你其實不用了解背後複雜得運算過程你也可以算出答案，但在解某些難題時就必須了解過程</li>
-        <li>目的碼<br>內含可執行檔及函式庫，編譯過程的中間產物</li>
-        <li>連接器<br>將所有文件連接在一起並產生可執行文件<img src="linker.png" width="200" height="200">大致過程如圖</li>
-        <li>執行檔<br>也就是我們常看見的.exe</li>
+        <li>原始碼（source code）<br>也就是我們所學的語法</li>
+        <li>預處理器（preprocessor）<br>在C語言中使用"#"開頭的指令就必須使用預處理器</li>
+        <li>編譯器（compiler）<br>也就是上述提到的devC++、Code:Blocks</li>
+        <li>組合語言（assembler）<br>現代大部分的開發者在進行軟體開發時不會使用此語言，但因為接近比起編譯語言更接近硬體，所以在一些要求時效性的程式中會使用組合語言開發，大致來說把編譯語言想成物理的公式，你其實不用了解背後複雜得運算過程你也可以算出答案，但在解某些難題時就必須了解過程</li>
+        <li>目的碼（object code）<br>內含可執行檔及函式庫，編譯過程的中間產物</li>
+        <li>連接器（Linker）<br>將所有文件連接在一起並產生可執行文件<img src="linker.png" width="200" height="200">大致過程如圖</li>
+        <li>執行檔（executables）<br>也就是我們常看見的.exe</li>
 </p4>
 </body>
 <footer>
